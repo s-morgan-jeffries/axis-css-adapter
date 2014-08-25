@@ -17,6 +17,6 @@
     "tests"
   ],
   "dependencies": {
-    "axis-css": "git://github.com/jenius/axis.git#~0.2.1"
+    "axis-css": "git://github.com/jenius/axis.git#~0.1.8"
   }
 }
