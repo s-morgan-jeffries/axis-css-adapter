@@ -1,0 +1,22 @@
+{
+  "name": "axis-css-adapter",
+  "version": "0.0.0",
+  "homepage": "https://github.com/s-morgan-jeffries/axis-css-adapter",
+  "authors": [
+    "Morgan <s.morgan.jeffries@gmail.com>"
+  ],
+  "description": "Interface for conditionally importing axis-css library for Stylus",
+  "main": "index.styl",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "axis": "git://github.com/jenius/axis.git#~0.2.1"
+  }
+}
