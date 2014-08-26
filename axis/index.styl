@@ -1,0 +1,39 @@
+// -------------------------------------------------------
+// Importing all the files we need
+// -------------------------------------------------------
+
+@import 'settings'
+@import '../node_modules/axis-css/axis/reset'
+@import '../node_modules/axis-css/axis/vertical-rhythm'
+@import '../node_modules/axis-css/axis/vendor'
+@import '../node_modules/axis-css/axis/utilities'
+@import '../node_modules/axis-css/axis/gradients'
+@import '../node_modules/axis-css/axis/interaction'
+@import '../node_modules/axis-css/axis/positions'
+
+unless $use-typeplate
+  @import '../node_modules/axis-css/axis/typography'
+  @import '../node_modules/axis-css/axis/code'
+
+@import '../node_modules/axis-css/axis/ui'
+@import '../node_modules/axis-css/axis/buttons'
+@import '../node_modules/axis-css/axis/forms'
+@import '../node_modules/axis-css/axis/tables'
+
+unless $use-jeet
+  @import '../node_modules/axis-css/axis/grid'
+
+@import '../node_modules/axis-css/axis/flex'
+@import '../node_modules/axis-css/axis/breakpoint'
+
+// -------------------------------------------------------
+// Framework Mixin (loads all default styles)
+// -------------------------------------------------------
+
+/*framework()*/
+  /*base()*/
+  /*typography()*/
+  /*forms()*/
+  /*buttons()*/
+  /*code-blocks()*/
+  /*tables()*/
